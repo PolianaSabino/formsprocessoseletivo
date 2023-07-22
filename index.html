@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Landing Page com formulário</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+        <!--Cabeçalho da página--> 
+        <header class="conteiner">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <div class="datilografia">
+                <h1> Faça parte do nosso time! </h1>
+                <p>Participe do nosso Programa Network Brasil</p>
+            </div>
+
+            <nav>
+                <dl class="barra_menu">
+                    <dt><a href="#home">Quem somos</a></dt>
+                    <dt><a href="#form">Quero fazer parte</a></dt>
+                    <dt><a href="#contato">Fale conosco</a></dt>
+                </dl>
+            </nav>
+
+        </header>
+        <hr>
+
+        <!--Aprseentação da proposta do projeto-->
+        <main>
+            <section id="home">
+                <div class="quem_somos">
+                    <h3>Quem somos</h3>
+                    <p id="texto"> 
+                        Somos uma rede de apoiadores que oferece serviços de network pensando em você, temos atendido pessoas de todo Brasil,
+                        e você não pode ficar de fora! A Network Brasil começou sua trajetória em 2015 na cidade de Belo Horizonte/MG, com três idealizadores. 
+                        Hoje temos um time com mais de 50 pessoas espalhadas por todas as capitais do Brasil. Queremos juntos fortalecer o nosso time e por isso
+                        queremos que você se inscreva no nosso programa.
+                    </p>
+                </div>
+            </section>
+            <hr>
+
+        <!--Formulário de inscrição-->
+            <section id="form">
+                <div class="form_parte">
+                    <h3 >Quero fazer parte</h3>
+
+                    <form class="form_preencher">
+
+                        <fieldset id="pessoal">
+                            <legend>Preencha os campos abaixo para participar do nosso processo seletivo</legend>
+                            <label for="nome">Nome: </label>
+                            <input type="text" minlength="3" id="nome" placeholder="Nome completo" required/>
+
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+
+                            <label for="cidade">Cidade: </label>
+                            <input type="cidade" id="cidade" name="name" placeholder="Cidade" required>
+
+                            <label for="estado">Estado: </label>
+                            <input type="estado" id="estado" name="estado" placeholder="Estado" required>
+                        </fieldset>
+
+                        <fieldset id="auternativa">
+                            <legend>Marque as alternativas que mais se identifique</legend>
+                            <label for="checkbox"> Marque as opções a seguir: </label>
+                            <dl id="auternativa_1">
+                                <dt><label for="checkbox">Você viajaria pela empresa?</label>
+                                    <input type="checkbox"></dt>
+
+                                <dt><label for="checkbox">Você gosta da cultura de feedback?</label>
+                                    <input type="checkbox"></dt>
+
+                                <dt><label for="checkbox">Você gosta de momento sociáveis em equipe?</label>
+                                    <input type="checkbox"></dt>
+
+                                <dt><label for="checkbox">Você faria cursos de aperfeiçoamento profissional?</label>
+                                    <input type="checkbox"></dt>
+
+                                <dt><label for="checkbox">Você mudaria de turno de trabalho para melhor aproveitamento na empresa?</label>
+                                    <input type="checkbox"></dt>
+                            </dl>
+                    
+                        </fieldset>
+
+                        <fieldset id="regiao">
+                            <legend>Marque apenas uma opção</legend>
+                            <label for="radio"> Qual região do Brasil gostaria de trabalhar? </label>
+                            <dt id="regiao_1">
+
+                                <li><label for="radio">Sul </label>
+                                    <input type="radio" name="opcao" value="opcao1"></li>
+
+                                <li><label for="radio">Norte </label>
+                                    <input type="radio" name="opcao" value="opcao2"></li>
+                                
+                                <li><label for="radio">Sudeste </label>
+                                    <input type="radio"name="opcao" value="opcao3"></li>
+                                
+                                <li><label for="radio">Nordete </label>
+                                    <input type="radio" name="opcao" value="opcao4"></li>
+                               
+                                <li><label for="radio">Centro Oeste </label>
+                                    <input type="radio" name="opcao" value="opcao5"></li>
+                            </dt>
+                        </fieldset>
+
+                        <fieldset id="botao">
+                            <button type="submit" id="botao1" onclick="mostrarAlert(event)">Enviar</button>
+                            <button type="reset" id="botao2">Limpar campo</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+        <hr>
+
+        <!--Rodapé-->
+        <footer id="contato">
+            <h3>Entre em contato conosco</h3>
+            <p>Email: contato@networkbrasil.com</p>
+            <p> 31 955510-6600</p>
+        </footer>
+    </body>
+</html>
