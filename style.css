@@ -268,15 +268,16 @@ footer p {
         font-size: 12px;
     }
 
-    .quem_somos {
+     .quem_somos {
+        padding-top: 90px;
         padding-left: 10px;
         width: 100%;
         padding-bottom: 60px;
     }
 
     .form_parte {
+        margin-top: 170px;
         padding-left: 10px;
-        padding-top: 40px;
     }
 
     .form_preencher {
@@ -402,15 +403,16 @@ footer p {
         font-size: 12px;
     }
 
-    .quem_somos {
+     .quem_somos {
+        padding-top: 90px;
         padding-left: 10px;
         width: 100%;
         padding-bottom: 60px;
     }
 
     .form_parte {
+        margin-top: 170px;
         padding-left: 10px;
-        padding-top: 40px;
     }
 
     .form_preencher {
@@ -540,15 +542,16 @@ footer p {
         margin-left: 93px;
     }
 
-    .quem_somos {
+     .quem_somos {
+        padding-top: 90px;
         padding-left: 10px;
         width: 100%;
         padding-bottom: 60px;
     }
 
     .form_parte {
+        margin-top: 170px;
         padding-left: 10px;
-        padding-top: 40px;
     }
 
     .form_preencher {
